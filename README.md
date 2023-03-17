@@ -15,20 +15,20 @@ Linked list memiliki fungsionalitas dasar seperti insertion, deletion, traversal
 
 #### Elemen - Elemen dalam Program
 
-import os: digunakan untuk mengimpor modul os yang akan digunakan untuk membersihkan konsol.
+1. import os: digunakan untuk mengimpor modul os yang akan digunakan untuk membersihkan konsol.
 
-class FriendList: digunakan untuk mendefinisikan kelas FriendList.
+2. class FriendList: digunakan untuk mendefinisikan kelas FriendList.
 
-class FriendNode: digunakan untuk mendefinisikan kelas FriendNode.
+3. class FriendNode: digunakan untuk mendefinisikan kelas FriendNode.
 
-def __init__(self, name, id_char, level, total_achievement): adalah konstruktor kelas FriendNode yang menginisialisasi atribut dari kelas tersebut, yaitu name, id_char, level, total_achievement, dan next. Atribut next digunakan untuk menunjuk ke node berikutnya dalam linked list.
+4. def __init__(self, name, id_char, level, total_achievement): adalah konstruktor kelas FriendNode yang menginisialisasi atribut dari kelas tersebut, yaitu name,    id_char, level, total_achievement, dan next. Atribut next digunakan untuk menunjuk ke node berikutnya dalam linked list.
 
-def __init__(self): adalah konstruktor kelas FriendList yang menginisialisasi atribut head dengan None. Atribut head digunakan untuk menunjuk ke node pertama dalam linked list.
+5. def __init__(self): adalah konstruktor kelas FriendList yang menginisialisasi atribut head dengan None. Atribut head digunakan untuk menunjuk ke node pertama dalam linked list.
 
-def add_friend(self, name, id_char, level, total_achievement): adalah fungsi untuk menambahkan teman baru ke linked list. Fungsi ini membuat objek FriendNode baru dengan atribut yang diberikan, dan menambahkannya ke akhir linked list jika linked list tidak kosong, atau membuatnya sebagai head jika linked list kosong.
+6. def add_friend(self, name, id_char, level, total_achievement): adalah fungsi untuk menambahkan teman baru ke linked list. Fungsi ini membuat objek FriendNode baru dengan atribut yang diberikan, dan menambahkannya ke akhir linked list jika linked list tidak kosong, atau membuatnya sebagai head jika linked list kosong.
 
-def remove_friend(self, name): adalah fungsi untuk menghapus teman dari linked list. Fungsi ini mencari node dengan nama yang diberikan dan menghapusnya dari linked list.
+7. def remove_friend(self, name): adalah fungsi untuk menghapus teman dari linked list. Fungsi ini mencari node dengan nama yang diberikan dan menghapusnya dari linked list.
 
-def print_friends(self): adalah fungsi untuk mencetak daftar teman dalam linked list ke dalam sebuah string, dengan memanfaatkan atribut name dari setiap node.
+8. def print_friends(self): adalah fungsi untuk mencetak daftar teman dalam linked list ke dalam sebuah string, dengan memanfaatkan atribut name dari setiap node.
 
-def print_detail(self, name): adalah fungsi untuk mencetak detail teman yang memiliki nama yang diberikan. Fungsi ini mencari node dengan nama yang diberikan dan mencetak atributnya, yaitu name, id_char, level, dan total_achievement.
+9. def print_detail(self, name): adalah fungsi untuk mencetak detail teman yang memiliki nama yang diberikan. Fungsi ini mencari node dengan nama yang diberikan dan mencetak atributnya, yaitu name, id_char, level, dan total_achievement.
